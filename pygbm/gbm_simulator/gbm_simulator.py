@@ -14,7 +14,7 @@ class GBMSimulator(BaseGBM):
 
         Parameters:
         -T(float): final time, i.e. end of time interval
-        -N(float): number of time steps, increments dividing time increment
+        -N(int): number of time steps, increments dividing time increment
 
         """
         #not sure what to do so copied Boris' code for this method

@@ -7,7 +7,7 @@ def main():
     parser.add_argument("--mu",type = float, required = True, help = "expected value of Y given t" )
     parser.add_argument("--sigma", type = float, required = True, help = "standard deviation of Y given t")
     parser.add_argument("--T", type = float, required = True, help = "end time")
-    parser.add_argument("--N", type = float, required = True, help = "number of increments")
+    parser.add_argument("--N", type = int, required = True, help = "number of increments")
     parser.add_argument("--output", type = str, help = "Output file of plot")
 
     args = parser.parse_args()
