@@ -20,3 +20,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+#can now test CLI in terminal with below:
+ #pygbm --y0 1.0 --mu 0.05 --sigma 0.2 --T 1.0 --N 100 --output gbm_plot.png
