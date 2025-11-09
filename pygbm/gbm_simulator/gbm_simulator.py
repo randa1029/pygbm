@@ -5,7 +5,7 @@ from ..base_pygbm import BaseGBM
 
 class GBMSimulator(BaseGBM):
     def __init__(self,y0,mu,sigma):
-        pass
+        super().__init__(y0,mu,sigma)
 
     def simulate_path(self,T,N):
         """
