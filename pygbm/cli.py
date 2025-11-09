@@ -1,5 +1,5 @@
 import argparse
-from gbm_simulator import GBMSimulator
+from .gbm_simulator.gbm_simulator import GBMSimulator #it is a file called gbm_simulator.py within the folder gbm.simulator
 
 def main():
     parser = argparse.ArgumentParser(description="pygbm CLI Tool")
