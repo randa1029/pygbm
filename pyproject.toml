@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
 authors = [
-    { Randa = "Randa He", email = "jh2604@cam.ac.uk" }
+    { name = "Randa He", email = "jh2604@cam.ac.uk" }
 ]
 keywords = ["Geometric Brownian Motion", "simulation"]
 classifiers = [
