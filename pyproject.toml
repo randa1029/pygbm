@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel", "setuptools_scm", "build"]  # Build requireme
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pygbm"
+name = "pygbm_hej"
 dynamic = ["version"]
 description = "A Python package for simulating Geometric Brownian Motion."
 readme = "README.md"
