@@ -10,7 +10,7 @@ Save plots to file
 
 ## Installation
 Install pygbm using pip:
-`$ pip install pygbm`
+`$ pip install pygbm-hej==0.1.0.post2`
 
 or from source files using:
 `$ pip install -e /path/to/source`
