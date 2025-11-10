@@ -38,6 +38,8 @@ dependencies = [
 
 [tool.setuptools_scm]
 write_to = "pygbm/version.py"  # Where to write the dynamic version
+local_scheme = "no-local-version"
+version_scheme = "post-release"
 
 [tool.setuptools.packages.find]
 where = ["."]
