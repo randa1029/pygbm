@@ -36,7 +36,8 @@ simulator.plot_path(t_values, y_values)
 ` pygbm --y0 1.0 --mu 0.05 --sigma 0.2 --T 1.0 --N 100 --output gbm_plot.png `, this command should produce a plot of the simulated path as an output.
 
 ## Documentation
-Link to the [document page (to be added)]
+## Documentation
+Link to the [documentation page](https://pygbm-rh.readthedocs.io/en/latest/).
 
 ## Contribution
 Contributors via pull requests are welcome.
